@@ -110,3 +110,41 @@ window.addEventListener("scroll", () => {
 if (window.SimpleAnime) {
   new SimpleAnime();
 }
+
+/* Tab */
+// Navegação da tabnav
+const tabNav = document.querySelectorAll("#tabnav li");
+const tabContent = document.querySelectorAll("#tabcontent div");
+
+// tabnav
+for (let i = 0; i < tabNav.length; i++) {
+  tabNav[0].classList.add("active");
+}
+
+tabcontent;
+for (let i = 0; i < tabContent.length; i++) {
+  tabContent[0].style.display = "block";
+  tabContent[i].style.display = "none";
+}
+
+function activeTab(index) {
+  tabContent.forEach(item => {
+    item.style.display = "none";
+  });
+  tabContent[index].style.display = "block";
+}
+
+function activeLink(index) {
+  tabNav.forEach(item => {
+    item.classList.remove("active");
+  });
+  tabNav[index].classList.add("active");
+}
+
+tabNav.forEach((item, index) => {
+  item.addEventListener("click", e => {
+    e.preventDefault();
+    activeLink(index);
+    activeTab(index);
+  });
+});

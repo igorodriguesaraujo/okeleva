@@ -113,6 +113,8 @@
 .okeleva-tabs {
   padding: 24px;
   margin: 0px 15px;
+  display: block;
+  width: 100%;
 }
 .okeleva.tabnav {
   display: flex;
