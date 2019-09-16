@@ -135,6 +135,7 @@
   cursor: pointer;
   transition: all 300ms;
   text-decoration: none;
+  text-align: center;
 }
 .okeleva.tabnav li:hover a {
   background: #242579;

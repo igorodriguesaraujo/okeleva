@@ -1,10 +1,10 @@
 /* Section Video */
 .okeleva.okeleva-video {
-  margin-top:60px;
-  margin-bottom:140px;
+  margin-top: 60px;
+  margin-bottom: 140px;
   padding: 50px 0px;
   background: #fff;
-  background: linear-gradient(90deg, #fff 33%,#242579 30%);
+  background: linear-gradient(90deg, #fff 33%, #242579 30%);
   height: 550px;
 }
 .okeleva-video div {
@@ -12,11 +12,11 @@
 }
 .okeleva-video div .shape {
   display: block;
-  width:350px;
+  width: 350px;
   height: 60px;
   background-color: #c4d600;
-  bottom:-25px;
-  right:60px;
+  bottom: -25px;
+  right: 60px;
   position: absolute;
 }
 .okeleva.okeleva-video iframe {
@@ -38,7 +38,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding:110px 0 0;
+  padding: 110px 0 0;
 }
 .okeleva-about figure {
   flex: 1;
@@ -177,7 +177,7 @@
   flex-basis: 150px;
   background-color: #c4d600;
   padding: 24px 15px;
-  margin: 15px 10px;
+  margin: 0px 10px;
 }
 .item--service .item--title {
   margin: 10px 0;
