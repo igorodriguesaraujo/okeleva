@@ -119,11 +119,11 @@
   justify-content: center;
   margin: 10px 0;
 }
-.okeleva.tabnav li.active {
+.okeleva.tabnav li.active a {
   background: #242579;
   color: #c4d600;
 }
-.okeleva.tabnav li {
+.okeleva.tabnav li a {
   display: block;
   font-size: 0.75rem;
   padding: 8px 15px;
@@ -133,8 +133,9 @@
   color: #242579;
   cursor: pointer;
   transition: all 300ms;
+  text-decoration: none;
 }
-.okeleva.tabnav li:hover {
+.okeleva.tabnav li:hover a {
   background: #242579;
   color: #c4d600;
 }
@@ -142,6 +143,6 @@
   text-align: center;
   display: block;
 }
-.okeleva.tab-content p {
+.okeleva.tab-content div {
   margin: 15px 10px;
 }
