@@ -132,6 +132,11 @@
   border: 2px solid #242579;
   color: #242579;
   cursor: pointer;
+  transition: all 300ms;
+}
+.okeleva.tabnav li:hover {
+  background: #242579;
+  color: #c4d600;
 }
 .okeleva.tab-content {
   text-align: center;
