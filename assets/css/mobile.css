@@ -124,6 +124,13 @@
     display: none;
     visibility: hidden;
   }
+  /* tab */
+  .okeleva.tabnav li:last-child a {
+    max-width: 15ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 /* Animação do menu mobile */
 @keyframes fadein {
