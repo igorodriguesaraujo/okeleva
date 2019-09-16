@@ -1,0 +1,142 @@
+/* Header Mobile */
+@media (max-width: 992px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+  .brand {
+    justify-content: space-between;
+    padding: 15px 10px;
+  }
+  .brand .btn-mobile {
+    display: block;
+    padding: 8px 15px;
+    border: 2px solid #242579;
+    background: transparent;
+    color: #242579;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .navigation {
+    display: none;
+  }
+  .navigation-mobile {
+    display: block;
+    height: 100vh;
+    background-color: #242579;
+    animation: fadein 0.3s forwards;
+  }
+  .navigation-mobile .nav {
+    display: block;
+  }
+  .navigation-mobile .nav .menu {
+    display: flex;
+    margin: 15px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation-mobile .nav .menu li {
+    margin: 15px 10px;
+  }
+  .navigation-mobile .nav .menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 300ms;
+  }
+
+  .navigation.navigation-mobile .nav .menu li.active a {
+    color: #242579 !important;
+    background: #c4d600;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+}
+
+/* Main / Mobile */
+@media (max-width: 768px) {
+  /* Video */
+  .okeleva.okeleva-video > div iframe {
+    height: 400px;
+  }
+  /* About */
+  .okeleva.okeleva-about {
+    background: linear-gradient(90deg, #242579 50%, #fff 35%);
+    background-size: cover;
+  }
+  .okeleva-about div {
+    display: block;
+  }
+  .okeleva-about div article {
+    padding: 15px 0;
+    background-color: #c4d600;
+  }
+  .okeleva-about div article h1,
+  .okeleva-about div article p {
+    padding: 10px 15px !important;
+    text-align: center;
+    margin: 0 !important;
+  }
+  .okeleva-about .figure-mobile {
+    position: inherit;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  /* Cases */
+  .okeleva-cases.list--case {
+    grid-template-columns: 1fr !important;
+    grid-gap: 10px 0;
+  }
+  .okeleva-cases.item--case {
+    grid-column: 1;
+    grid-column-start: 1 !important;
+    grid-column-end: 2 !important;
+    display: flex;
+    flex-direction: column;
+    margin: 0 !important;
+  }
+  .okeleva-cases.item--case figure img {
+    width: 100%;
+  }
+  /* Services */
+  .okeleva-services .item--service {
+    flex-basis: 300px;
+  }
+
+  /* Certified */
+  .list--certified .item--certified {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  /* Contact Us */
+  .okeleva.okeleva--form span:first-child {
+    padding-right: 0;
+  }
+  .okeleva.okeleva--form .btn-submit {
+    width: 100%;
+  }
+  .rect,
+  .rect.rect-video,
+  rect.rect-about {
+    display: none;
+    visibility: hidden;
+  }
+}
+/* Animação do menu mobile */
+@keyframes fadein {
+  from {
+    opacity: 0;
+    height: 0;
+    transform: translate3d(-370px, 0px, 0);
+    overflow: hidden;
+  }
+  to {
+    opacity: 1;
+    height: 100vh;
+    transform: translate3d(0, 0, 0);
+    overflow: hidden;
+  }
+}

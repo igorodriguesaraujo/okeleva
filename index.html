@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  <link rel="stylesheet" href="./assets/css/animate.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <title>Okeleva | Qualidade e Segurança em Elevação</title>
+</head>
+<body>
+  <header class="header fixed">
+    <figure class="brand">
+      <img src="./assets/images/logo.png" alt=""> 
+      <button class="btn-mobile"><i class="fas fa-bars lg-fa"></i> menu</button>
+    </figure>
+    
+    <div class="navigation">
+      <nav class="nav">
+        <ul class="menu">
+          <li class="active"><a href="#video">home</a></li>
+          <li><a href="#about">a empresa</a></li>
+          <li><a href="#cases">cases</a></li>
+          <li><a href="#services">serviços</a></li>
+          <li><a href="#certified">certificações</a></li>
+          <li><a href="#contact">contato</a></li>
+        </ul>
+        <ul class="social">
+          <li>
+            <a href="#facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- #end header -->
+
+  <section id="video" class="okeleva okeleva-video">
+    <div class="container">
+      <iframe src="https://www.youtube-nocookie.com/embed/JWMNoePtXcA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+      <div class="shape"></div>
+
+      <figure class="rect rect-video">
+        <object data="./assets/images/circle.svg" type="image/svg+xml"></object>
+      </figure>
+    </div>
+  </section>
+  <!-- #end section video -->
+
+  <section id="about" class="okeleva okeleva-about fadeInTop">
+    <div class="container">
+      <figure data-animate="fadeInLeft" class="figure-mobile">
+        <img src="./assets/images/img-elevador.png" alt="">
+      </figure>
+      
+      <article data-animate="fadeInRight">
+        <h1 class="heading feature">
+          <span>somos a</span>
+          <span>okeleva</span>
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <figure class="rect rect-about">
+          <object data="./assets/images/circle.svg" type="image/svg+xml"></object>
+        </figure>
+      </article>
+    </div>
+  </section>
+  <!-- #end section about -->
+
+  <section id="cases" class="okeleva okeleva-cases">
+      <div class="container">
+        <h1 data-animate="fadeInTop" class="heading feature">
+          <span>algum de</span>
+          <span>nossos cases</span>
+        </h1>
+
+        <ul class="okeleva-cases list--case">
+          <li data-animate="fadeInLeft" class="okeleva-cases item--case radius">
+            <figure>
+              <span class="item--local"><i class="fas fa-map-marker-alt"></i>Porto</span>
+              <img src="./assets/images/img01.png" alt="">
+            </figure>
+            <article>
+              <h3>Manutenção de elevadores</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam facere a illum excepturi molestiae magnam cum inventore vero. Aliquid rem illo ullam sed obcaecati unde, quis facilis veritatis itaque exercitationem?
+              </p>
+            </article>
+          </li>
+          <li data-animate="fadeInTop" class="okeleva-cases item--case radius">
+            <figure>
+              <span class="item--local"><i class="fas fa-map-marker-alt"></i>Porto</span>
+              <img src="./assets/images/img02.png" alt="">
+            </figure>
+            <article>
+              <h3>Manutenção de paneil digital paraelevadores</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam facere a illum excepturi molestiae magnam cum inventore vero. Aliquid rem illo ullam sed obcaecati unde, quis facilis veritatis itaque exercitationem?
+              </p>
+            </article>
+          </li>
+          <li data-animate="fadeInBottom" class="okeleva-cases item--case radius">
+            <figure>
+              <span class="item--local"><i class="fas fa-map-marker-alt"></i>Porto</span>
+              <img src="./assets/images/img03.png" alt="">
+            </figure>
+            <article>
+              <h3>Profissionais Qualificados</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam facere a illum excepturi molestiae magnam cum inventore vero. Aliquid rem illo ullam sed obcaecati unde, quis facilis veritatis itaque exercitationem?
+              </p>
+            </article>
+          </li>
+        </ul>       
+        
+        <div data-animate="fadeInBottom" class="link">
+          <a class="link--whatsapp" href="https://web.whatsapp.com/send?phone=5521989118604&text=Olá, Aqui é Okeleva" target="_blank">Seja um cliente <strong>Okeleva</strong>, faça um orçamento</a>
+        </div>
+        
+      </div>
+  </section>
+  <!-- #end section cases -->
+
+  <section id="services" class="okeleva okeleva-services ">
+    <div class="container">
+      
+      <figure class="rect rect-service">
+        <object data="./assets/images/circle-green.svg" type="image/svg+xml"></object>
+      </figure>
+
+      <h1 data-animate="fadeInTop" class="heading light">
+        <span>Nossos</span>
+        <span>serviços</span> 
+      </h1>
+
+      <ul data-animate="fadeInBottom" class="okeleva-services list--service">
+        <li class="okeleva-service item--service radius">
+          <figure class="item--image">
+            <object data="./assets/images/vetor1.svg" type="image/svg+xml"></object>
+          </figure>
+          <h3 class="item--title">Elevadores</h3>
+          <p class="item--description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti libero eaque numquam sed excepturi dolorum inventore recusandae.</p>
+        </li>
+        <li class="okeleva-service item--service radius">
+          <figure  class="item--image">
+              <object data="./assets/images/vetor2.svg" type="image/svg+xml"></object>  
+          </figure>
+            
+          <h3 class="item--title">Escada Rolante</h3>
+          <p class="item--description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti libero eaque numquam sed excepturi dolorum inventore recusandae.</p>
+        </li>
+        <li class="okeleva-service item--service radius">
+          <figure class="item--image">
+              <object data="./assets/images/vetor3.svg" type="image/svg+xml"></object>
+          </figure>
+            
+          <h3 class="item--title">Monta-cargas</h3>
+          <p class="item--description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti libero eaque numquam sed excepturi dolorum inventore recusandae.</p>
+        </li>
+        <li class="okeleva-service item--service radius">
+          <figure class="item--image">
+              <object data="./assets/images/vetor4.svg" type="image/svg+xml"></object>                      
+          </figure>
+            
+          <h3 class="item--title">Monta-cargas</h3>
+          <p class="item--description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti libero eaque numquam sed excepturi dolorum inventore recusandae.</p>
+        </li>
+      </ul>
+
+      <div data-animate="fadeInBottom" class="quote light">
+        <p>Instalamos e efectuamos manutenção de elevadores, escadas rolantes <br/> e plataformas elevatórias.</p>
+      </div>
+    </div>
+  </section>
+  <!-- #end section services -->
+
+  <section id="certified" class="okeleva okeleva-certified ">
+      <div class="container">
+        
+        <figure class="rect rect-cetified">
+          <object data="./assets/images/circle-green.svg" type="image/svg+xml"></object>
+        </figure>
+
+        <h1 data-animate="fadeInTop" class="heading feature">
+          <span>Nossas</span> 
+          <span>certificações</span> 
+        </h1>
+
+        <ul data-animate="fadeInBottom" class="okeleva-certified list--certified">
+          <li class="okeleva-certified item--certified radius">
+            <figure class="item--image">
+              <img src="./assets/images/certif1.png">
+            </figure>
+            <article class="item--info">
+              <h3 class="item--title">Certificação</h3>
+              <p class="item--description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti libero eaque numquam sed excepturi dolorum inventore recusandae.</p>
+            </article>   
+          </li>
+          <li class="okeleva-certified item--certified radius">
+            <figure class="item--image">
+              <img src="./assets/images/certif2.png">
+            </figure>
+            <article class="item--info">
+              <h3 class="item--title">Certificação</h3>
+              <p class="item--description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti libero eaque numquam sed excepturi dolorum inventore recusandae.</p>
+            </article> 
+          </li>
+          <li class="okeleva-certified item--certified radius">
+            <figure class="item--image">
+              <img src="./assets/images/certif3.png">
+            </figure>
+            <article class="item--info">
+              <h3 class="item--title">Associados</h3>
+              <p class="item--description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti libero eaque numquam sed excepturi dolorum inventore recusandae.</p>
+            </article>
+          </li>
+        </ul>
+        
+        <div data-animate="fadeInBottom" class="quote primary">
+          <p>Somos um empresa certificada e associada a organizações <br/> nacionais e internacionais.</p>
+        </div>
+      </div>
+  </section>
+  <!-- #end section certified -->
+
+  <section id="contact" class="okeleva okeleva-contact-us">
+    <div class="container">
+
+      <h1 data-animate="fadeInTop" class="heading light">
+        <span>Fale</span>
+        <span>conosco</span>
+      </h1>
+
+      <p class="notify"><i class="far fa-check-circle"></i> Sua messagem foi enviada com sucesso!</p>
+      
+      <form class="okeleva okeleva--form">
+        <span data-animate="fadeInLeft">
+          <label for="name">nome</label><br>
+          <input id="name" type="text" name="name" required>
+      
+          <label for="email">e-mail</label><br>
+          <input id="email" type="email" name="email" required>
+      
+          <label for="phone">telefone</label><br>
+          <input id="phone" type="tel" name="phone" required>
+
+          <div class="g-recaptcha" data-sitekey="6LdAF7YUAAAAAKaNX4L7RG4NBtTOplGaY9ahrxdf">
+          </div>
+        </span>
+
+        <span data-animate="fadeInRight">
+          <label for="mensagem">Mensagem</label><br/>
+          <textarea name="message" id="mansagem" cols="30" rows="10"></textarea>
+          <button type="submit" class="btn-submit"> Enviar Mensagem</button>
+        </span>
+        
+      </form>
+
+    </div>
+  </section>
+  <!-- #end section contact us -->
+
+  <footer class="footer">
+    <div data-animate="fadeInBottom" class="container">
+      <ul>
+        <li> 
+          <h4>
+            <i class="fas fa-map-marker-alt"></i> 
+            Onde Estamos
+          </h4>
+          <p>
+            Praceta Qtª das Parreiras Lj 8, <br/> 2840-416 Torre da Marinha
+          </p>  
+        </li>
+        <!-- col endereço -->
+        <li> 
+            <h4>
+              <i class="fas fa-phone-square"></i> 
+              Entre em contato
+            </h4>
+            <p>
+              Tel.: 211-331-147/32 <br/>
+              Fax: 211-331-374
+            </p>  
+        </li>
+        <!-- col contato -->
+      </ul>
+      <!-- col left -->
+
+      <div class="footer-image">
+        <img src="./assets/images/footer-image.png" alt="">
+      </div>
+      <!-- col center -->
+      <ul>
+        <li> 
+          <h4><i class="far fa-envelope"></i>Envie um e-mail</h4>
+          <p>geral@okeleva.com</p>  
+        </li>
+        <!-- col email -->
+
+        <li> 
+          <a href=""><i class="fab fa-whatsapp"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <!-- col social -->
+      </ul>
+      <!-- col right -->
+    </div>
+  </footer>
+  <!-- #end footer -->
+<script src="assets/js/simple-anime.js"></script>
+<script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+[2019-7-17 14:07:07] layer "contato@domain.com": Unsupported extension: com
+[2019-7-17 14:07:07] layer "Envie um e-mail geral@okeleva.com": Unsupported extension: com
