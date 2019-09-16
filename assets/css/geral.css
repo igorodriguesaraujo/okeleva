@@ -104,3 +104,39 @@
   top: 2850px;
   left: 750px;
 }
+
+/* Tabs */
+.container.tabs {
+  background-color: #fff;
+  padding: 24px 0;
+}
+.okeleva-tabs {
+  padding: 24px;
+  margin: 0px 15px;
+}
+.okeleva.tabnav {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.okeleva.tabnav li.active {
+  background: #242579;
+  color: #c4d600;
+}
+.okeleva.tabnav li {
+  display: block;
+  font-size: 0.75rem;
+  padding: 8px 15px;
+  margin: 0 10px 0 0;
+  border-radius: 8px;
+  border: 2px solid #242579;
+  color: #242579;
+  cursor: pointer;
+}
+.okeleva.tab-content {
+  text-align: center;
+  display: block;
+}
+.okeleva.tab-content p {
+  margin: 15px 10px;
+}
