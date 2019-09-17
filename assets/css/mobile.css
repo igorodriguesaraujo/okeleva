@@ -101,6 +101,9 @@
   .okeleva-cases.item--case figure img {
     width: 100%;
   }
+  .okeleva-cases.item--case:nth-child(3) figure {
+    max-width: inherit !important;
+  }
   .okeleva.okeleva-cases .item--case {
     max-height: inherit;
   }

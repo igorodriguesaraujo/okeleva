@@ -108,6 +108,9 @@
   grid-column-start: 2;
   grid-column-end: 3;
 }
+.okeleva.okeleva-cases .item--case:nth-child(3) figure {
+  max-width: 184px;
+}
 .item--case figure {
   position: relative;
   overflow: hidden;
