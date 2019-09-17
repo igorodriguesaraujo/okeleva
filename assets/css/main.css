@@ -87,11 +87,16 @@
   margin: 0 10px 15px 0;
   background-color: #c4d600;
   display: flex;
+  max-height: 200px;
 }
 .okeleva.okeleva-cases .item--case:nth-child(1) {
   grid-column: 1;
   grid-row-start: 1;
   grid-row-end: 3;
+  /* Ajuste */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-height: 420px;
 }
 .okeleva.okeleva-cases .item--case:nth-child(2) {
   grid-column-start: 2;
@@ -105,9 +110,10 @@
 }
 .item--case figure {
   position: relative;
+  overflow: hidden;
 }
 .item--case figure img {
-  width: auto;
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
@@ -133,11 +139,11 @@
 }
 .item--case article {
   color: #242579;
-  max-width: 350px;
+  max-width: 250px;
 }
 .item--case article p {
-  font-size: 0.85rem;
-  line-height: 1.25rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
   margin: 10px 0;
 }
 .okeleva.okeleva-cases .link {

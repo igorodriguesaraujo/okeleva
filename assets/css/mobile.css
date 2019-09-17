@@ -101,6 +101,9 @@
   .okeleva-cases.item--case figure img {
     width: 100%;
   }
+  .okeleva.okeleva-cases .item--case {
+    max-height: inherit;
+  }
   /* Services */
   .okeleva-services .item--service {
     flex-basis: 300px;
@@ -124,6 +127,7 @@
     display: none;
     visibility: hidden;
   }
+
   /* tab */
   .okeleva.tabnav li:last-child a {
     max-width: 15ch;
