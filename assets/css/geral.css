@@ -97,12 +97,12 @@
   transform: rotate(90deg);
 }
 .rect.rect-service {
-  top: 2220px !important;
-  left: 450px !important;
+  top: 2320px !important;
+  left: 630px !important;
 }
 .rect.rect-cetified {
-  top: 3110px;
-  left: 750px;
+  top: 3200px;
+  left: 860px;
 }
 
 /* Tabs */
@@ -129,7 +129,7 @@
   font-size: 0.75rem;
   padding: 8px 15px;
   margin: 0 10px 0 0;
-  border-radius: 8px;
+  border-radius: 20px;
   border: 2px solid #242579;
   color: #242579;
   cursor: pointer;
@@ -146,5 +146,17 @@
   display: block;
 }
 .okeleva.tab-content div {
-  margin: 15px 10px;
+  margin: 25px auto 15px;
+  max-width: 720px;
+  height: 130px;
+  font-size: 0.95rem;
+  line-height: 1.25rem;
+}
+.okeleva.tab-content div::after {
+  content: "";
+  margin: 40px auto 10px;
+  width: 50%;
+  height: 4px;
+  background: #242579;
+  display: block;
 }
