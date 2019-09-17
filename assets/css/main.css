@@ -194,6 +194,26 @@
 .item--service .item--description {
   font-size: 0.85rem;
 }
+/* Section references */
+.okeleva.okeleva-references {
+  display: block;
+  padding: 60px 0 25px;
+  height: 100vh;
+}
+.okeleva.list--references li {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #c4d600;
+  color: #242579;
+}
+.okeleva.list--references li i {
+  color: #242579;
+  margin-right: 10px;
+}
+
 /* Section Certification */
 .okeleva.okeleva-certified {
   padding: 50px 0 100px;
