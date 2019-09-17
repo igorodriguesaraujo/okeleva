@@ -148,3 +148,14 @@ tabNav.forEach((item, index) => {
     activeTab(index);
   });
 });
+
+// Navegando direto pra o seção de contato
+const moveForm = event => {
+  // event.preventDefault();
+  const contato = document.getElementById("contact").offsetTop + 140;
+  window.scrollTo({
+    top: contato,
+    left: 0,
+    behavior: "smooth"
+  });
+};
