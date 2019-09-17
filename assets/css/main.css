@@ -185,8 +185,8 @@
   flex-shrink: 0;
   flex-basis: 150px;
   background-color: #c4d600;
-  padding: 24px 15px;
-  margin: 0px 10px;
+  padding: 15px;
+  margin: 5px 10px 0 10px;
 }
 .item--service .item--title {
   margin: 10px 0;
