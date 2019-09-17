@@ -150,7 +150,7 @@ tabNav.forEach((item, index) => {
 });
 
 // Navegando direto pra o seção de contato
-const moveForm = event => {
+const moveForm = () => {
   // event.preventDefault();
   const contato = document.getElementById("contact").offsetTop + 140;
   window.scrollTo({
