@@ -8,13 +8,13 @@ require './PHPMailer/src/PHPMailer.php';
 require './PHPMailer/src/SMTP.php';
   
 // Mudar Aqui o e-mail
-$email_envio = 'contato@igorodriguesdesign.com.br'; // E-mail do site (ex: contato@seusite.com)
-$email_pass = 'k7vsc@Zgc48QfuQ'; // Senha do e-mail
+$email_envio = ''; // E-mail do site (ex: contato@seusite.com)
+$email_pass = ''; // Senha do e-mail
 
-$site_name = 'Igor Rodrigues | Design'; // Nome do Site
-$site_url = 'www.igorodriguesdesign.com.br'; // URL do Site
+$site_name = ''; // Nome do Site
+$site_url = 'www.okeleva.com'; // URL do Site
 
-$host_smtp = ' smtp.umbler.com'; // HOST SMTP Ex: smtp.domain.com.br
+$host_smtp = ' smtp.host.com'; // HOST SMTP Ex: smtp.domain.com.br
 $host_port = '587'; // Porta do Host, geralmente 465 ou 587
 
 
