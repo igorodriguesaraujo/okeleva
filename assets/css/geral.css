@@ -1,0 +1,162 @@
+/* Geral  */
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+.radius {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .h90 {
+    height: auto;
+  }
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.85rem;
+  line-height: 2rem;
+  margin: 50px 0px;
+}
+.heading span:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 200;
+}
+.heading.feature {
+  color: #242579;
+}
+.heading.light {
+  color: #fff;
+}
+/* Notification */
+.notify {
+  display: none;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+  color: #eae6e6;
+  font-weight: 600;
+  text-align: center;
+}
+
+.notify-success {
+  animation: slidedown 0.5s forwards;
+  display: block !important;
+  background: #25d366;
+}
+/* Animation */
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+  }
+}
+
+.quote {
+  margin: 50px 0px;
+  text-align: center;
+}
+.quote p {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 4px solid;
+}
+.quote.primary p {
+  border-color: #242579;
+  color: #242579;
+}
+.quote.light p {
+  border-color: #fff;
+  color: #fff;
+}
+.rect {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rect.rect-video {
+  top: 160px;
+  left: -100px;
+}
+.rect.rect-about {
+  top: -20px;
+  right: 80px;
+}
+.rect.rect-about object {
+  transform: rotate(90deg);
+}
+.rect.rect-service {
+  top: 2320px !important;
+  left: 630px !important;
+}
+.rect.rect-cetified {
+  top: 3200px;
+  left: 860px;
+}
+
+/* Tabs */
+.container.tabs {
+  background-color: #fff;
+  padding: 24px 0;
+}
+.okeleva-tabs {
+  padding: 24px;
+  display: block;
+  width: 100%;
+}
+.okeleva.tabnav {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.okeleva.tabnav li.active a {
+  background: #242579;
+  color: #c4d600;
+}
+.okeleva.tabnav li a {
+  display: block;
+  font-size: 0.75rem;
+  padding: 8px 15px;
+  margin: 0 10px 0 0;
+  border-radius: 20px;
+  border: 2px solid #242579;
+  color: #242579;
+  cursor: pointer;
+  transition: all 300ms;
+  text-decoration: none;
+  text-align: center;
+}
+.okeleva.tabnav li:hover a {
+  background: #242579;
+  color: #c4d600;
+}
+.okeleva.tab-content {
+  text-align: center;
+  display: block;
+}
+.okeleva.tab-content div {
+  margin: 25px auto 15px;
+  max-width: 720px;
+  height: 130px;
+  font-size: 0.95rem;
+  line-height: 1.25rem;
+}
+.okeleva.tab-content div::after {
+  content: "";
+  margin: 40px auto 10px;
+  width: 50%;
+  height: 4px;
+  background: #242579;
+  display: block;
+}

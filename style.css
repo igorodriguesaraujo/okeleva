@@ -1,0 +1,12 @@
+/* Reset */
+@import url("./assets/css/reset.css");
+
+/* Styles */
+@import url("./assets/css/geral.css");
+@import url("./assets/css/header.css");
+@import url("./assets/css/main.css");
+
+/* Mobile */
+@import url("./assets/css/mobile.css");
+
+/*# sourceMappingURL=style.css.map */

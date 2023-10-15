@@ -1,0 +1,21 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+body {
+  font-family: "Raleway", sans-serif;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
